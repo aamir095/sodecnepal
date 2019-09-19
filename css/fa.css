@@ -1,0 +1,32 @@
+body, input{
+	font-family: Calibri, Arial;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: #0254EB
+}
+a:visited {
+	color: #0254EB
+}
+#fabody h2 {
+	color: white;
+	background-color: #00A1E6;
+	margin:0px;
+	padding: 5px;
+}
+.comment {
+	width: 95%;
+	background-color: white;
+	margin: 10px;
+	font-size: 16px;
+	text-align: justify;
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
