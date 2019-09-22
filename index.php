@@ -41,9 +41,10 @@
 
   <!-- Color CSS Styles  -->
   <link rel="stylesheet" type="text/css" href="css/green.css" title="green" media="screen" />
-
+<link rel="stylesheet" href="asset/css/owl.carousel.css"/>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="engine1/style.css"/>
 
 
 <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/6D17F271-7CB1-BA4B-A76F-21180704FBE8/main.js" charset="UTF-8"></script><script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5994fb34fb9b6e00129cd2d6&product=social-ab' async='async'></script>
@@ -69,141 +70,97 @@
     <!-- Start Home Page Slider -->
     <section id="home">
       <!-- Carousel -->
-      <div id="main-slide" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-          <li data-target="#main-slide" data-slide-to="1"></li>
-          <li data-target="#main-slide" data-slide-to="2"></li>
-          <li data-target="#main-slide" data-slide-to="3"></li>
-		  <li data-target="#main-slide" data-slide-to="4"></li>
-		  <li data-target="#main-slide" data-slide-to="5"></li>
-          <li data-target="#main-slide" data-slide-to="6"></li>
-          <li data-target="#main-slide" data-slide-to="7"></li>
-		  
-		  
-        </ol>
-        <!--/ Indicators end-->
+      <!-- Start WOWSlider.com BODY section -->
+      <div id="wowslider-container1">
+          <div class="ws_images">
+              <ul>
 
-        <!-- Carousel inner -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
+                  <!--<li><img src="data1/images/3.jpg" alt="3" title="Shooting of weekly TV programme SAHABHAGITA in our studio"
+                           id="wows1_0"/></li>
+                  <li><img src="data1/images/4.jpg" alt=""
+                           title="Workshop organized by Save the Children-CSANN-WMS on MSNP's progress after field visit"
+                           id="wows1_1"/></li>
+                  <li><img src="data1/images/5.jpg" alt="5"
+                           title="Certificate of Participation provided to the Participant at the end of training"
+                           id="wows1_2"/></li>  -->
+                  <li><img src="data1/images/6.jpg" alt="6"
+                           title="Journalist training under the programme - Mass Awareness and Media Campaign, OXFAM-WMS"
+                           id="wows1_3"/></li>
+                  <li><img src="data1/images/7.jpg" alt="7"
+                           title="Literacy classes organized by BLP-USAID for household women in Bardiya District"
+                           id="wows1_4"/></li>
+                  <li><img src="data1/images/8.jpg" alt="8"
+                           title="A Glimpse of Basantapur, one of the world heritage sites,  after April 2015 Earthquake"
+                           id="wows1_5"/></li>
+                  <li><img src="data1/images/9.jpg" alt="9"
+                           title="People demolishing their houses which was completly destroyed during Earthquake 2015"
+                           id="wows1_6"/></li>
+                  <li><img src="data1/images/10.jpg" alt="10"
+                           title="Street Drama on Legal Aid and Legal Awareness in Dailekh District, RoLHR (UNDP), WMS"
+                           id="wows1_7"/></li>
+                  <!--<li><img src="data1/images/11.jpg" alt="11" title="WMS Studio" id="wows1_8"/></li> -->
+                  <li><img src="data1/images/12.jpg" alt="12"
+                           title="Photo session during the shooting for video toolkit production, UNDP-NSET-WMS"
+                           id="wows1_9"/></li>
+                  <li><img src="data1/images/13.jpg" alt="13"
+                           title="Shooting of PSA on Injury & Rehabilitation Unit, Sindhupalchowk District, IOM-WMS"
+                           id="wows1_10"/></li>
+                  <li><img src="data1/images/14.jpg" alt="14"
+                           title="Shooting for video toolkit production for safe building practices, UNDP(CDRMP)-NSET-WMS"
+                           id="wows1_11"/></li>
+      			<li><img src="data1/images/21.jpg" alt="14"
+                           title="Shooting of weekly TV programme Bahasma Sarwajanik Shikshya in our studio"
+                           id="wows1_11"/></li>
+                 <!-- <li><img src="data1/images/15.jpg" alt="15"
+                           title="Group photo, Journalist Training on Nutrition and Food Security at Makwanpur District"
+                           id="wows1_12"/></li>
+                  <li><img src="data1/images/16.jpg" alt="16"
+                           title="Interview with Mr. Blair Glencorse (Founder of Accountability Lab, USA) on Rupantaran Programme"
+                           id="wows1_13"/></li>  -->
+                  <li><img src="data1/images/17.jpg" alt="17"
+                           title="Monitoring and Review of Multi-Sector Nutrition Plan (MSNP) Status in Jumla District, Save the Children, WMS"
+                           id="wows1_14"/></li>
+                  <li><img src="data1/images/18.jpg" alt="18"
+                           title="Outdoor shooting with Dr. Amod Mani Dixit for TV programme SANKALPA, based on DRR issues"
+                           id="wows1_15"/></li>
+                  <li><a href="http://wowslider.com"><img src="data1/images/1.jpg" alt="slider"
+                                                          title="Journalist Training on Nutrition and Food Security at Makwanpur District, World Bank-NPC-WMS"
+                                                          id="wows1_16"/></a></li>
+                  <li><img src="data1/images/2.jpg" alt="2" title="Group photo, Journalist Training, Dhulikhel"
+                           id="wows1_17"/></li>
 
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">Studio shoot of Rupantaran television program aired every Saturday at 8:30PM hrs on Sagarmatha Television</p>
-            </div>
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-                
-              </div>
-            </div>
+
+              </ul>
           </div>
-          <!--/ Carousel item end -->
-		  <div class="item">
-            <img class="img-responsive" src="images/slider/tms.jpg"  alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">Interview with Auditor General of Nepal Mr Tanka Mani Sharma Dangal for TV programme Sankalpa Sushasan Ka Laagi</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-
-              </div>
-            </div>
-          </div>
-          <!-- Carousel inner end-->
-		  <div class="item">
-            <img class="img-responsive" src="images/slider/pj.jpg"  alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">Participants  of Journalist Training on Governance and Anti-corruption held on 14-15th June 2017 at Nepalgunj, Banke</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-
-              </div>
-            </div>
-          </div>
-          <!-- Carousel inner end-->
-          <div class="item">
-            <img class="img-responsive" src="images/slider/jb.jpg"  alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;"> Mr Jagat Basnet, representative of Regional Administrative Office, Mr Amrit Lamsal, Local District Officer and Mr Mahadev Pantha, Chief District Officer of Surkhet at STREAC Civic Interaction Programme at Birendranagar, Surkhet held 16th June 2017.</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-
-              </div>
-            </div>
-          </div>
-          <!-- Carousel inner end-->
-
-          <div class="item">
-            <img class="img-responsive" src="images/slider/bp.jpg" style="width:1440px;height:599px"    po; alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">Then chairperson of Local Level Restructuring Commission Mr Balananda Poudel presenting at an interaction programme with media persons on 3rd February 2017</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-
-              </div>
-            </div>
-          </div>
-          <!-- Carousel inner end-->
-		 
-          <!-- Carousel inner end-->
-          <div class="item">
-            <img class="img-responsive" src="images/slider/bg6.jpg" alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">On the set of Sankalpa Sushasan Ka Lagi, a TV programme on governance issues, aired every Thursday at 7:25PM on Nepal Television</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
+          <div class="ws_bullets">
+              <div>
+                  <a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>1</span></a>
+                  <a href="#" title="4"><span><img src="data1/tooltips/4.jpg"
+                                                   alt="Interview with Mr. Blair Glencorse (Founder of Accountability Lab, USA) on Rupantaran Programme n]Vg"/>2</span></a>
+                  <a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>3</span></a>
+                  <a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>4</span></a>
+                  <a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>5</span></a>
+                  <a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>6</span></a>
+                  <a href="#" title="9"><span><img src="data1/tooltips/9.jpg" alt="9"/>7</span></a>
+                  <a href="#" title="10"><span><img src="data1/tooltips/10.jpg" alt="10"/>8</span></a>
+                  <a href="#" title="11"><span><img src="data1/tooltips/11.jpg" alt="11"/>9</span></a>
+                  <a href="#" title="12"><span><img src="data1/tooltips/12.jpg" alt="12"/>10</span></a>
+                  <a href="#" title="13"><span><img src="data1/tooltips/13.jpg" alt="13"/>11</span></a>
+                  <a href="#" title="14"><span><img src="data1/tooltips/14.jpg" alt="14"/>12</span></a>
+                  <a href="#" title="15"><span><img src="data1/tooltips/15.jpg" alt="15"/>13</span></a>
+                  <a href="#" title="16"><span><img src="data1/tooltips/16.jpg" alt="16"/>14</span></a>
+                  <a href="#" title="17"><span><img src="data1/tooltips/17.jpg" alt="17"/>15</span></a>
+                  <a href="#" title="18"><span><img src="data1/tooltips/18.jpg" alt="18"/>16</span></a>
+                  <a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>17</span></a>
+                  <a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>18</span></a>
 
               </div>
-            </div>
           </div>
-          <!-- Carousel inner end-->
-		  <div class="item">
-            <img class="img-responsive" src="images/slider/civil.jpg" alt="slider">
-            <div class="carousel-caption" style="padding-bottom: 65px;">
-
-              <p style="color: #006bc6; text-shadow: none; padding: 5px 0px; background: #fff;">Civil society leaders, journalists and general public interacting with state agency authorities in regard to service delivery, good governance and anti-corruption at Doti</p>
-            </div>
-           
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-
-              </div>
-            </div>
-          </div>
-          <!-- Carousel inner end-->
-		  
-		  
-		  
-		  
-			
-		  
-          <!-- Controls -->
-          <a class="left carousel-control" href="#main-slide" data-slide="prev">
-            <span><i class="fa fa-angle-left"></i></span>
-          </a>
-          <a class="right carousel-control" href="#main-slide" data-slide="next">
-            <span><i class="fa fa-angle-right"></i></span>
-          </a>
-        </div>
-        <!-- /carousel -->
-    </section>
+          <div class="ws_script" style="position:absolute;left:-99%"></div>
+          <div class="ws_shadow"></div>
+      </div>
+      <!-- End WOWSlider.com BODY section -->
     <!-- End Home Page Slider -->
 
 
@@ -232,7 +189,7 @@
             <div class="col-md-5">
 
 
-              
+
 <br/>
 			  <!-- Start Touch Slider -->
 
@@ -240,7 +197,7 @@
 
                <!-- <img class="img-responsive" src="images/slider/sbg2.jpg" alt="slider">   -->
                 <img class="img-responsive" src="images/slider/Sankalpa-TV-Programme-.jpg" alt="slider">
-				
+
 
               </div>
               <!-- End Touch Slider -->
@@ -251,7 +208,7 @@
 
                <!-- <img class="img-responsive" src="images/slider/sbg2.jpg" alt="slider">   -->
                 <img class="img-responsive" src="images/slider/Rupantaran-Facebook-Ad-.jpg" alt="slider">
-				
+
 
               </div>
               <!-- End Touch Slider -->
@@ -345,7 +302,7 @@
 
           <!-- Start Latest Posts -->
 
- 
+
           <div class="latest-posts-classic">
 		        <?php $blogs=getAllActiveProgram($conn);
               foreach ($blogs as $key => $blog):
@@ -382,16 +339,16 @@
 
           <!-- Start Latest Posts -->
           <div class="latest-posts-classic">
-			
+
       <?php   $noticeindexs=getAllActiveNotices($conn);
               foreach ($noticeindexs as $key => $noticeindex) {
-              
+
       ?>
 			<!-- Post 1 -->
             <div class="post-row notice">
               <div class="left-meta-post">
 
-                <?php 
+                <?php
                      $date1=$noticeindex['created_date'];
                      $date=explode('-',$date1);
                 ?>
@@ -445,18 +402,18 @@
                 <p><?php  echo $string=substr($noticeindex['tv_description'],0,150).".....";?></p>
               </div>
             </div>
-			
+
       <?php } ?>
 			<!-- Post 2 -->
-         
-			
+
+
             <!-- Post 3 -->
-         
+
 
             <!-- Post 4 -->
-           
 
-            
+
+
             <a href="notice.php" class="btn-system btn-small">Read More</a>
 
           </div>
@@ -548,7 +505,7 @@
             <li>
               <img src="images/publications/second.jpg" alt="" />
               <div class="portfolio-item-content">
-                <span class="header"> नेपाली विश्वविद्यालयहरुका पत्रकारिता पाठ्यक्रम 
+                <span class="header"> नेपाली विश्वविद्यालयहरुका पत्रकारिता पाठ्यक्रम
  </span>
 
               </div>
@@ -623,7 +580,7 @@
           <div class="client-item item">
             <a href="http://www.nccr.org.np/" target="_blank"><img src="images/c3.png" alt="" /></a>
           </div>
-          
+
 
      </div>
      </div>
@@ -664,7 +621,7 @@
 
 
     <!-- Start Footer -->
-   <?php include "layouts/footer.php"; ?> 
+   <?php include "layouts/footer.php"; ?>
     <!-- End Footer -->
 
   </div>
@@ -690,6 +647,12 @@
   <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
   <script type="text/javascript" src="js/jquery.parallax.js"></script>
   <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+  <script src="asset/js/jquery.min.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+  <script src="asset/js/owl.carousel.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
 
   <script type="text/javascript" src="js/script.js"></script>
 
@@ -701,7 +664,7 @@
         $(this).find("p").css("color","#fff")
         // console.log($(this).find("p"));
 
-       
+
 
     });
     $(".service-boxed").mouseout(function(){
